@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822C1BD92A0A86CE0068DB8B /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C1BD82A0A86CE0068DB8B /* FeedbackView.swift */; };
+		822C1BDB2A0AB0C70068DB8B /* FeedbackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822C1BDA2A0AB0C70068DB8B /* FeedbackViewTests.swift */; };
 		82A9B4132A068B6200E26A5C /* shareABiteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9B4122A068B6200E26A5C /* shareABiteApp.swift */; };
 		82A9B4152A068B6200E26A5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A9B4142A068B6200E26A5C /* ContentView.swift */; };
 		82A9B4172A068B6400E26A5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A9B4162A068B6400E26A5C /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		822C1BD82A0A86CE0068DB8B /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		822C1BDA2A0AB0C70068DB8B /* FeedbackViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewTests.swift; sourceTree = "<group>"; };
 		82A9B40F2A068B6200E26A5C /* shareABite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shareABite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A9B4122A068B6200E26A5C /* shareABiteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shareABiteApp.swift; sourceTree = "<group>"; };
 		82A9B4142A068B6200E26A5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 				82A9B4462A06CAA400E26A5C /* ElectronicsView.swift */,
 				82A9B4482A06CC4600E26A5C /* ApparelAndAccessories.swift */,
 				82A9B4522A0899E000E26A5C /* AllowedCredentials.swift */,
+				822C1BD82A0A86CE0068DB8B /* FeedbackView.swift */,
 			);
 			path = shareABite;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				82A9B4562A089F7400E26A5C /* SignUpTests.swift */,
+				822C1BDA2A0AB0C70068DB8B /* FeedbackViewTests.swift */,
 			);
 			path = shareABiteUITests;
 			sourceTree = "<group>";
@@ -295,6 +301,7 @@
 				82A9B4412A069B4900E26A5C /* SignUpView.swift in Sources */,
 				82A9B4432A06C3BF00E26A5C /* CategoryView.swift in Sources */,
 				82A9B43D2A068BB400E26A5C /* ProductView.swift in Sources */,
+				822C1BD92A0A86CE0068DB8B /* FeedbackView.swift in Sources */,
 				82A9B43F2A068BD500E26A5C /* LoginView.swift in Sources */,
 				82A9B4492A06CC4600E26A5C /* ApparelAndAccessories.swift in Sources */,
 				82A9B4132A068B6200E26A5C /* shareABiteApp.swift in Sources */,
@@ -317,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82A9B4572A089F7400E26A5C /* SignUpTests.swift in Sources */,
+				822C1BDB2A0AB0C70068DB8B /* FeedbackViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -108,10 +108,36 @@ struct SignUpView: View {
                     }
                 }
                 
+                HStack {
+                    Spacer()
+                    
+                    NavigationLink(destination:FeedbackView()){
+                        Text("Write A Feedback")
+                            .foregroundColor(.white)
+                        
+                        Image(systemName: "square.and.pencil")
+                            .font(.system(size: 20))
+                            .foregroundColor(.white)
+                            .padding(10)
+                            .background(Color.black)
+                            .clipShape(Circle())
+                            .accessibilityIdentifier("feedbackButton")
+                        
+                        
+                    }
+                }
+                .padding(.horizontal, 20)
+                .padding(.top, 20)
+                
             }
             .padding(.horizontal, 20)
             .padding(.vertical, 30)
+
         }
+        
+        
+
+    
     }
     
     private func isValidEmail(_ email: String) -> Bool {

@@ -12,6 +12,7 @@ struct ContentView: View {
                CategoryView()
             } else {
                 SignUpView()
+             
             }
         }.environmentObject(AllowedCredentials())
     }
